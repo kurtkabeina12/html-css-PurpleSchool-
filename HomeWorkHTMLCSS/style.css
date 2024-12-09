@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+
+nav {
+    padding: 33px 50px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0 0 17px 0;
+}
+
+h2 {
+    margin: 0 0 19px 0;
+}
+
+h1, h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #050038;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p:not(.infoText) {
+    color: #050038;
+
+}
+
+header a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #050038;
+    padding: 47px 40px;
+    margin: 0 20px 0 0;
+    color: #fff;
+}
+
+.infoText {
+    color: #696688;
+    margin: 0 0 40px 0;
+}
+
+.heroForm input {
+    border: 1px solid #9b99af;
+    border-radius: 32px;
+    height: 38px;
+    padding: 5px 10px;
+}
+
+.link {
+    color: #4262FF;
+}
+
+.link:hover {
+    color: #122db6;
+}
+
+.heroForm+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #050038;
+    margin: 8px 0 52px 0;
+}
+
+.heroForm button {
+    border: 1px solid #4262ff;
+    border-radius: 32px;
+    height: 48px;
+    background-color: #4262ff;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.heroForm button:hover {
+    background-color: #122db6;
+}
+
+.heroForm button:active {
+    background-color: #061b81;
+}
+
+#infoForUser {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    color: #050038;
+}
+
+.heroText {
+    color: #050038;
+    margin: 0 0 55px 0;
+}
+
+.sectionList {
+    list-style-type: none;
+    list-style-image: url(./img/icons/Frame.svg);
+}
+
+/* .sectionList li::marker {
+    content: url(./img/icons/Frame.svg);
+} */

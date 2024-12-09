@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css" />
 	<title>Miro</title>
 </head>
 
@@ -21,82 +22,54 @@
 		</nav>
 	</header>
 
-	<hr />
-
 	<main>
 
 		<section>
 			<h1> Место для командной работы </h1>
-			<p>Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.</p>
+			<p class="heroText">Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом
+				месте.</p>
 			<img src="./img/image-section-1.jpg" alt="AllFunctional" />
-			<form action="/test" method="post">
-				<label for="search">введите текст</label>
+			<form action="/test" method="post" class="heroForm">
+				<label for="search"></label>
 				<input id="search" type="text" />
-				<button>Начать бесплатно</button>
+				<button id="bthStart">Начать бесплатно</button>
 			</form>
+			<p>Всегда бесплатно — кредитная карта не нужна</p>
+			<span id="infoForUser">45M+ пользователей</span>
+			<img src="./img/icons/IMAGE.svg" alt="iconWalmart" />
+			<img src="./img/icons/IMAGE-1.svg" alt="iconCisco" />
+			<img src="./img/icons/IMAGE-2.svg" alt="iconDeloitte" />
+			<img src="./img/icons/IMAGE-3.svg" alt="iconVolvo" />
 		</section>
 
 		<section>
 			<h2>Работайте вместе, где бы вы ни находились</h2>
-			<p>Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться, сотрудничать и
+			<p class="infoText">Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться,
+				сотрудничать и
 				совместно
 				заниматься творчеством в одном пространстве, из любой точки мира.</p>
-			<a href="#">Узнать больше</a>
+			<a href="#" class="link">Узнать больше</a>
 			<img src="./img/image-section-2.jpg" alt="Users" />
 		</section>
 
 		<section>
 			<img src="./img/image-section-3.png" alt="Sponsors" />
 			<h2>Закройте лишние вкладки — всё уже здесь</h2>
-			<p>Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или созваниваетесь в Zoom, Miro
+			<p class="infoText">Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или
+				созваниваетесь в
+				Zoom, Miro
 				предлагает
 				более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
-			<span><a href="#">Узнать больше</a></span>
+			<span><a href="#" class="link">Узнать больше</a></span>
 		</section>
 
 		<section>
-			<table>
-				<caption>Таблица расходов и доховод</caption>
-				<thead>
-					<tr>
-						<th>Год</th>
-						<th colspan="2">2023</th>
-						<th colspan="2">2024</th>
-					</tr>
-					<tr>
-						<th>Полугодие</th>
-						<th>1</th>
-						<th>2</th>
-						<th>1</th>
-						<th>2</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Доход</td>
-						<td>1500$</td>
-						<td>1800$</td>
-						<td>2000$</td>
-						<td>3000$</td>
-					</tr>
-					<tr>
-						<td>Расход</td>
-						<td>-500$</td>
-						<td>-600$</td>
-						<td>-700$</td>
-						<td>-1000$</td>
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<td>Итог</td>
-						<td>1000$</td>
-						<td>1200$</td>
-						<td>1300$</td>
-						<td>2000$</td>
-					</tr>
-				</tfoot>
-			</table>
+			<h2>Создан для всех типов команд</h2>
+			<ul class="sectionList">
+				<li>Создавайте варфреймы</li>
+				<li>Подключайте заказчиков к процессу дизайна</li>
+				<li>Проводите вовлекающие дизайн-воркшопы</li>
+			</ul>
 		</section>
 
 	</main>

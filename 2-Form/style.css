@@ -1,0 +1,36 @@
+main {
+    background: #f39494;
+    background: linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%), linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%);
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+}
+
+button {
+    background-color: #089fe0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+input, label {
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999;
+}
+
+span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+}
