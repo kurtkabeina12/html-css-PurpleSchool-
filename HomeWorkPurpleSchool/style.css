@@ -23,3 +23,7 @@ label {
 button {
     background-color: #6C38CC;
 }
+
+input:valid {
+    background: red;
+}
