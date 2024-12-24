@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<title>Miro</title>
 </head>
 
@@ -24,52 +27,79 @@
 
 	<main>
 
-		<section>
-			<h1> Место для командной работы </h1>
-			<p class="heroText">Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом
-				месте.</p>
-			<img src="./img/image-section-1.jpg" alt="AllFunctional" />
-			<form action="/test" method="post" class="heroForm">
-				<label for="search"></label>
-				<input id="search" type="text" />
-				<button id="bthStart">Начать бесплатно</button>
-			</form>
-			<p>Всегда бесплатно — кредитная карта не нужна</p>
-			<span id="infoForUser">45M+ пользователей</span>
-			<img src="./img/icons/IMAGE.svg" alt="iconWalmart" />
-			<img src="./img/icons/IMAGE-1.svg" alt="iconCisco" />
-			<img src="./img/icons/IMAGE-2.svg" alt="iconDeloitte" />
-			<img src="./img/icons/IMAGE-3.svg" alt="iconVolvo" />
+		<section class="heroSection">
+			<div class="heroSectionText">
+				<h1> Место для <br /> командной <br /> работы </h1>
+				<p class="heroText">Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом
+					месте.</p>
+				<form action="/test" method="post" class="heroForm">
+					<label for="search"></label>
+					<input id="search" type="text" />
+					<button id="bthStart">Начать бесплатно</button>
+				</form>
+				<p>Всегда бесплатно — кредитная карта не нужна</p>
+				<div class="heroIcons">
+					<span id="infoForUser">45M+ пользователей</span>
+					<img src="./img/icons/IMAGE.svg" alt="iconWalmart" />
+					<img src="./img/icons/IMAGE-1.svg" alt="iconCisco" />
+					<img src="./img/icons/IMAGE-2.svg" alt="iconDeloitte" />
+					<img src="./img/icons/IMAGE-3.svg" alt="iconVolvo" />
+				</div>
+			</div>
+			<img src="./img/image-section-1.jpg" alt="Весь функционал" />
 		</section>
 
-		<section>
-			<h2>Работайте вместе, где бы вы ни находились</h2>
-			<p class="infoText">Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться,
-				сотрудничать и
-				совместно
-				заниматься творчеством в одном пространстве, из любой точки мира.</p>
-			<a href="#" class="link">Узнать больше</a>
-			<img src="./img/image-section-2.jpg" alt="Users" />
+		<section class="section">
+			<div class="heroSectionText">
+				<h2>Работайте вместе, где бы вы ни находились</h2>
+				<p class="infoText">Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться,
+					сотрудничать и
+					совместно
+					заниматься творчеством в одном пространстве, из любой точки мира.</p>
+				<a href="#" class="link">Узнать больше</a>
+			</div>
+			<img src="./img/image-section-2.jpg" alt="Картинка Юзеры" />
 		</section>
 
-		<section>
-			<img src="./img/image-section-3.png" alt="Sponsors" />
-			<h2>Закройте лишние вкладки — всё уже здесь</h2>
-			<p class="infoText">Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или
-				созваниваетесь в
-				Zoom, Miro
-				предлагает
-				более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
-			<span><a href="#" class="link">Узнать больше</a></span>
+		<section class="section section-reverse">
+			<div class="heroSectionText">
+				<h2>Закройте лишние вкладки — всё уже здесь</h2>
+				<p class="infoText">Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или
+					созваниваетесь в
+					Zoom, Miro
+					предлагает
+					более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
+				<span><a href="#" class="link">Узнать больше</a></span>
+			</div>
+			<div>
+				<img src="./img/image-section-3.png" alt="Спонсоры" />
+			</div>
 		</section>
 
 		<section>
 			<h2>Создан для всех типов команд</h2>
-			<ul class="sectionList">
-				<li>Создавайте варфреймы</li>
-				<li>Подключайте заказчиков к процессу дизайна</li>
-				<li>Проводите вовлекающие дизайн-воркшопы</li>
-			</ul>
+			<div class="itemGroup">
+				<div class="item">UX и дизайн</div>
+				<div class="item">Маркетинг</div>
+				<div class="item">Управление продуктом</div>
+				<div class="item">Разработка</div>
+				<div class="item">Консалтинг</div>
+				<div class="item">Agile-коучинг</div>
+				<div class="item">Продажи</div>
+			</div>
+			<div class="heroSection">
+				<div class="heroSectionText">
+					<ul class="sectionList">
+						<li>Создавайте варфреймы</li>
+						<li>Подключайте заказчиков к процессу дизайна</li>
+						<li>Проводите вовлекающие дизайн-воркшопы</li>
+					</ul>
+					<span><a href="#" class="link">Узнать больше</a></span>
+					<p>Интегрируйте ваши любимые инструменты</p>
+					<img src="./img/icons/icons-group.svg" alt="группа иконок" />
+				</div>
+				<img src="./img/image-section-4.jpg" alt="Картинка типы команды" />
+			</div>
 		</section>
 
 	</main>
@@ -77,9 +107,9 @@
 	<footer>
 		<div>
 			<div>&copy; 2023 Miro</div>
-			<div>Условия пользования</div>
-			<div>Политика конфидециальности</div>
-			<div>Управление файлами cookies</div>
+			<a href="#">Условия пользования</a>
+			<a href="#">Политика конфидециальности</a>
+			<a href="#">Управление файлами cookies</a>
 		</div>
 	</footer>
 

@@ -1,17 +1,37 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 60px;
 }
 
 nav {
     padding: 33px 50px;
-    margin-bottom: 60px;
-    border-bottom: 1px solid #F0F0F0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-bottom: 200px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 34px;
 }
 
 h1 {
@@ -45,6 +65,7 @@ header a {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
+    color: #050038;
 }
 
 footer {
@@ -52,6 +73,58 @@ footer {
     padding: 47px 40px;
     margin: 0 20px 0 0;
     color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer>div {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    padding: 0 40px;
+}
+
+.heroSection {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 65px;
+    align-items: center;
+}
+
+.heroSectionText {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.itemGroup {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 8px;
+}
+
+.item {
+    border: 1px solid #f2f2f2;
+    border-radius: 24px;
+    height: 48px;
+    text-align: center;
+    padding: 14px 18px;
+    text-wrap: nowrap;
+}
+
+.item:first-child {
+    background: #f1f3fd;
+}
+
+.heroIcons {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    align-items: center;
 }
 
 .infoText {
@@ -62,7 +135,7 @@ footer {
 .heroForm input {
     border: 1px solid #9b99af;
     border-radius: 32px;
-    height: 38px;
+    height: 48px;
     padding: 5px 10px;
 }
 
@@ -82,20 +155,28 @@ footer {
     margin: 8px 0 52px 0;
 }
 
-.heroForm button {
+.heroForm {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+#bthStart {
     border: 1px solid #4262ff;
-    border-radius: 32px;
-    height: 48px;
+    border-radius: 2em;
+    height: 3em;
     background-color: #4262ff;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
     color: #fff;
-    padding: 10px 20px;
+    padding: 1em 2em;
+    transition: background-color 1s, border-radius 2s;
 }
 
-.heroForm button:hover {
+#bthStart:hover {
     background-color: #122db6;
+    border-radius: 50%;
 }
 
 .heroForm button:active {
@@ -119,6 +200,16 @@ footer {
     list-style-type: none;
     list-style-image: url(./img/icons/Frame.svg);
 }
+
+.section {
+    display: flex;
+    gap: 100px;
+}
+
+.section-reverse {
+    flex-flow: row-reverse nowrap;
+}
+
 
 /* .sectionList li::marker {
     content: url(./img/icons/Frame.svg);

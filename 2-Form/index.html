@@ -10,31 +10,38 @@
 
 <body>
 	<main>
-		<h1>Регистрация</h1>
-		<span>Уже есть аккаунт <a href="#">Войти</a></span>
+		<div class="heroText">
+			<h1>Регистрация</h1>
+			<span>Уже есть аккаунт&#63; <a href="#">Войти</a></span>
+		</div>
 		<form action="#">
 
-			<div>
-				<label for="company">Моя компания</label>
-				<input type="text" id="company" name="company" />
+			<div class="item item1">
+				<label for="company"></label>
+				<input type="text" id="company" name="company" placeholder="Моя компания" />
 			</div>
 
-			<div>
-				<label for="name">Имя</label>
-				<input type="text" id="name" name="name" />
+			<div class="userInfo">
+				<div class="item item2">
+					<label for="name"></label>
+					<input type="text" id="name" name="name" placeholder="Имя" />
+				</div>
+
+				<div class="item item3">
+					<label for="surname"></label>
+					<input type="text" id="surname" name="surname" placeholder="Фамилия" />
+				</div>
 			</div>
 
-			<div>
-				<label for="surname">Фамилие</label>
-				<input type="text" id="surname" name="surname" />
+			<div class="item item4">
+				<label for="email"></label>
+				<input type="email" id="email" name="email" placeholder="Email" />
 			</div>
 
-			<div>
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email" />
+			<div class="field">
+				<img src="./img/Arrow 1.svg" alt="иконка продолжить" />
+				<button type="button">Зарегестрироваться</button>
 			</div>
-
-			<button type="button">Зарегестрироваться</button>
 
 			<div>
 				<input name="agree" id="agree" type="checkbox" />
