@@ -14,14 +14,17 @@
 		<nav>
 			<ul>
 				<li>
-					<div class="headerCube">B</div>
+					<span class="headerCube">B</span>
 				</li>
 				<li> <a href="#"> Мой блог </a> </li>
 				<li> <a href="#"> HTML и CSS</a> </li>
 				<li> <a href="#"> Frontend </a> </li>
 				<li> <a href="#"> Backend </a> </li>
+				<div class="field">
+					<img src="./image/search.svg" alt="иконка поиска" />
+					<input type="text" placeholder="Поиск..." />
+				</div>
 			</ul>
-			<input type="text" placeholder="Поиск..." />
 		</nav>
 	</header>
 
@@ -33,15 +36,20 @@
 			</h1>
 			<h2>Теория цвета - Как цвет влияет на поведение потребителей</h2>
 			<div class="heroDiv">
-				<img src="./image/placeholder.png" alt="avatar" class="avatar" />
-				<span id="UserName">Яна Аветисян</span>
-				<p>Разработчик</p>
+				<div class="heroImage">
+					<img src="./image/placeholder.png" alt="пользовательская аватарка" class="avatar" />
+				</div>
+				<div class="heroDivText">
+					<span class="userName">Яна Аветисян</span>
+					<p>Разработчик</p>
+				</div>
 			</div>
 			<img src="./image/Rectangle 181.jpg" alt="Основное изображение компьютера" />
 		</section>
 
 		<section class="infoSection">
-			<h4>Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета
+			<h4 class="headinfoSection">Теория цвета — это особенности эмоционального восприятия человеком тех или иных
+				цветовых решений. Цвета
 				и
 				различные их
 				комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и
@@ -60,8 +68,6 @@
 				влияния
 				цветов на поведение пользователей.
 			</p>
-
-			<br />
 
 			<p>
 				В исследовании «Влияние цвета на маркетинг» <a

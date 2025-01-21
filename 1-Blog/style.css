@@ -20,6 +20,24 @@ h2 {
 
 nav>ul {
     list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+nav>ul li {
+    margin-right: 50px;
+}
+
+nav>ul li:first-child {
+    margin-right: 10px;
+}
+
+nav>ul li:last-child {
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 header {
@@ -33,15 +51,27 @@ header ul {
 
 header input {
     border-radius: 100px;
-    height: 40px;
+    height: 30px;
     background: rgba(31, 41, 55, 0.6);
     color: white;
-    padding: 5px 10px;
+    padding: 9px 128px 12px 49px;
+    border: none;
 }
 
 header input:focus {
     background-color: rgba(31, 41, 55, 0.6);
     border-color: rgb(255, 1, 1);
+}
+
+.field {
+    margin-left: 350px;
+    position: relative;
+}
+
+.field img {
+    position: absolute;
+    top: 18px;
+    left: 18px;
 }
 
 .heroSection, footer {
@@ -58,6 +88,15 @@ header input:focus {
 
 .heroDiv {
     margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.heroDivText p {
+    margin: 0;
 }
 
 .heroSection {
@@ -68,6 +107,7 @@ header input:focus {
     border-radius: 3px;
     width: 35px;
     height: 35px;
+    padding: 6px 12px;
     background: #4b5563;
 }
 
@@ -81,7 +121,7 @@ header input:focus {
     height: 50px;
 }
 
-#UserName {
+.userName {
     font-size: 16px;
     line-height: 175%;
 }
@@ -92,7 +132,7 @@ header input:focus {
     margin-bottom: 30px;
 }
 
-.infoSection p {
+.headinfoSection {
     font-size: 16px;
     line-height: 187%;
 }
