@@ -21,24 +21,13 @@ h2 {
 nav>ul {
     list-style: none;
     display: flex;
+    gap: 10px;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     text-wrap: nowrap;
 }
 
-nav>ul li {
-    margin-right: 50px;
-}
-
-nav>ul li:first-child {
-    margin-right: 10px;
-}
-
-nav>ul li:last-child {
-    margin-left: 350px;
-    margin-right: 350px;
-}
 
 header {
     margin-bottom: 80px;
